@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:tree/dashboard/dashboard_screen.dart';
 import 'package:tree/favorite/favorite_model.dart';
 import 'add_item/item_model.dart';
@@ -23,6 +24,13 @@ void main() {
       child: const MyApp(),
     ), // MultiProvider
   );
+=======
+import 'first_screen.dart';
+import 'home/home_screen/home_page.dart';
+
+void main() {
+  runApp(const MyApp());
+>>>>>>> e0a315ea681bc20cf3e727f4371df348b6a88476
 }
 
 class MyApp extends StatelessWidget {
@@ -33,10 +41,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+<<<<<<< HEAD
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellow),
         useMaterial3: true,
       ),
       home: NavBar(),
+=======
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        useMaterial3: true,
+      ),
+      home: Firstscreen(),
+>>>>>>> e0a315ea681bc20cf3e727f4371df348b6a88476
     );
   }
 }

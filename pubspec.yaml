@@ -10,14 +10,20 @@ dependencies:
   flutter:
     sdk: flutter
   image_picker: ^1.1.2
+<<<<<<< HEAD
   http: ^1.4.0
+=======
+>>>>>>> e0a315ea681bc20cf3e727f4371df348b6a88476
   permission_handler: ^11.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+<<<<<<< HEAD
   provider: ^6.1.5
+=======
+>>>>>>> e0a315ea681bc20cf3e727f4371df348b6a88476
 
 flutter:
   uses-material-design: true
